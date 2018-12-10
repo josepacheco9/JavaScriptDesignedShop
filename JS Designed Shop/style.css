@@ -1,0 +1,206 @@
+
+
+body {
+    background: -webkit-linear-gradient(#632b0c, #2b1203); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#632b0c, #2b1203); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#632b0c, #2b1203); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#632b0c, #2b1203); /* Standard syntax (must be last) */
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	width: 960px;
+	margin:auto;
+	color: white;	
+}
+
+#header {
+	width:960px;
+	height:104px;
+	margin:auto;
+}
+
+#headerLeft {
+	width:385px;
+	height:104px;
+	margin:auto;
+	float:left;
+}
+
+#headerRight {
+	width:575px;
+	height:94px;
+	margin:auto;
+	float:right;
+}
+
+#headerRightTop {
+	width:575px;
+	height:41px;
+	margin:auto;
+}
+
+#headerRightTop ul {
+	margin:0;
+	padding:0;
+}
+
+#headerRightTop li {
+	display: inline;
+	list-style:none;
+	margin:0;
+	padding:0 25px 0 0;;
+	font-family:Courier;
+	color:white;
+	float:right;
+}
+
+span:hover{
+	color: #90C;
+}
+
+
+#headerRightBot {
+	width:575px;
+	height:63px;
+	margin:auto;
+}
+
+#headerRightBot ul {
+	margin:0;
+	padding:0;
+	
+}
+
+#headerRightBot li {
+	display: inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#content {
+	width:960px;
+	height: 450px;
+}
+
+#col1 {
+	width:360px;
+	height:398px;
+	float:left;
+	color:white;
+	
+}
+
+#col2 {
+	width:600px;
+	height:398px;
+	float:right;
+	background:url(images/2-COFFEE-DONUT-600x398.jpg);
+}
+
+#aboutContent{
+	width:920px;
+	height: 440px;
+	background-color:#FFF;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+#menu{
+	width: 720px;
+}
+
+#cart{
+	width: 240px;
+}
+
+#content2 {
+	width:960px;
+	height: 180px;
+}
+
+#con1{
+	width:305px;
+	float:left;
+}
+
+#con2{
+	width:305px;
+	height: 160px;
+	float:left;
+	margin-left:20px;
+}
+
+#con3{
+	width:305px;
+	float:right;
+}
+
+#footer{
+	width:960px;
+}
+
+
+
+/* class */
+.space1 {
+	width: 8px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) 0 0;
+}
+
+.home {
+	width: 103px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) -8px 0;
+}
+
+.home:hover {
+	background-position: -8px -63px;
+}
+
+.about {
+	width: 135px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) -111px 0;
+}
+
+.about:hover {
+	background-position: -111px -63px;
+}
+
+.menu {
+	width: 137px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) -246px 0;
+}
+
+.menu:hover {
+	background-position: -246px -63px;
+}
+
+.new {
+	width: 156px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) -383px 0;
+}
+
+.new:hover {
+	background-position: -383px -63px;
+}
+
+.space2 {
+	width: 36px;
+	height: 63px;
+	float: left;
+	background: url(images/nav.png) -539 0;
+}
+
+
